@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "textstatms"
+version = "0.1.0"
+description = "A simple text analysis package: count words, characters, reading time, and common words."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { file="LICENSE" }
+authors = [
+{ name = "Masuti", email = "masutinyirongo@gmail.com" }
+]
+keywords = ["text", "analysis", "word count", "reading time", "nlp"]
+classifiers = [
+"Programming Language :: Python :: 3",
+"License :: OSI Approved :: MIT License",
+"Operating System :: OS Independent",
+"Topic :: Text Processing",
+]
+[project.urls]
+Homepage = "https://github.com/username/textstatsbek"
+PyPI = "https://pypi.org/project/textstatsbek/"
+[tool.setuptools.packages.find]
+where = ["src"]
